@@ -1,5 +1,6 @@
 <script>
   import { productData } from '../data/productData.js';
+  import headphoneImg from '../assets/headphone-main.png';
 </script>
 
 <section id="product" class="scroll-mt-16 py-24 bg-white">
@@ -9,7 +10,7 @@
       <!-- Image Section -->
       <div class="relative rounded-2xl overflow-hidden bg-stone-100 aspect-square flex items-center justify-center shadow-inner">
         <img 
-          src="/src/assets/headphone-main.png" 
+          src={headphoneImg} 
           alt="{productData.name}" 
           class="w-full h-full object-cover object-center"
           loading="lazy"
